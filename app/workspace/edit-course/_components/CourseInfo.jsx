@@ -22,13 +22,13 @@ function CourseInfo({ course, viewCourse }) {
                 courseTitle: course?.name,
                 courseId: course?.cid
             });
-            console.log(result.data);
+            // console.log(result.data);
             setLoading(false);
             router.replace('/workspace')
             toast.success('Course Generated successfully')
         }
         catch (e) {
-            console.log(e);
+            // console.log(e);
             setLoading(false);
             toast.error("Server Side error, Try Again!")
         }

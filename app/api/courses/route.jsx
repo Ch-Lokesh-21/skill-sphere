@@ -16,7 +16,7 @@ export async function GET(req) {
             .orderBy(desc(coursesTable.id))
             ;
 
-        console.log(result);
+        // console.log(result);
 
         return NextResponse.json(result);
     }
@@ -24,7 +24,7 @@ export async function GET(req) {
         const result = await db.select().from(coursesTable)
             .where(eq(coursesTable.cid, courseId));
 
-        console.log(result);
+        // console.log(result);
 
         return NextResponse.json(result[0]);
     }
@@ -34,7 +34,7 @@ export async function GET(req) {
             .orderBy(desc(coursesTable.id));
 
 
-        console.log(result);
+        // console.log(result);
 
         return NextResponse.json(result);
     }

@@ -9,7 +9,7 @@ function EnrollCourseCard({ course, enrollCourse }) {
     const courseJson = course?.courseJson?.course;
 
     const CalculatePerProgress = () => {
-        console.log(enrollCourse?.completedChapters?.length / course?.courseContent?.length * 100)
+        // console.log(enrollCourse?.completedChapters?.length / course?.courseContent?.length * 100)
         return enrollCourse?.completedChapters?.length ? (enrollCourse?.completedChapters?.length / course?.courseContent?.length) * 100 : 0
     }
     return (

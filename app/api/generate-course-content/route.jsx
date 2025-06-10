@@ -44,17 +44,14 @@ export async function POST(req) {
         const RawResp = response.candidates[0].content.parts[0].text
         const RawJson = RawResp.replace('```json', '').replace('```', '').trim();
 
-        console.log("RawJson", RawJson);
+        // console.log("RawJson", RawJson);
 
         const JSONResp = JSON.parse(RawJson);
 
         // GET Youtube Videos
 
         const youtubeData = await GetYoutubeVideo(chapter?.chapterName);
-        console.log({
-            youtubeVideo: youtubeData,
-            courseData: JSONResp
-        })
+        // console.log({youtubeVideo: youtubeData,courseData: JSONResp})
         return {
             youtubeVideo: youtubeData,
             courseData: JSONResp
@@ -94,6 +91,6 @@ const GetYoutubeVideo = async (topic) => {
         }
         youtubeVideoList.push(data);
     })
-    console.log("youtubeVideoList", youtubeVideoList)
+    // console.log("youtubeVideoList", youtubeVideoList)
     return youtubeVideoList;
 }

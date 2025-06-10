@@ -17,7 +17,7 @@ function EditCourse({ viewCourse = false }) {
     const GetCourseInfo = async () => {
         setLoading(true);
         const result = await axios.get('/api/courses?courseId=' + courseId);
-        console.log(result.data);
+        // console.log(result.data);
         setLoading(false);
         setCourse(result.data)
     }
@@ -25,7 +25,6 @@ function EditCourse({ viewCourse = false }) {
         <div>
             <CourseInfo course={course} viewCourse={viewCourse} />
             <ChapterTopicList course={course} />
-
         </div>
     )
 }

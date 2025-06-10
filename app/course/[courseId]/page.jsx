@@ -15,7 +15,7 @@ function Course() {
 
     const GetEnrolledCourseById = async () => {
         const result = await axios.get('/api/enroll-course?courseId=' + courseId);
-        console.log(result.data);
+        // console.log(result.data);
         setCourseInfo(result.data);
 
     }

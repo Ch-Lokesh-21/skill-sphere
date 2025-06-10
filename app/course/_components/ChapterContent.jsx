@@ -24,7 +24,7 @@ function ChapterContent({ courseInfo, refreshData }) {
             courseId: courseId,
             completedChapter: completedChapter
         });
-        console.log(result);
+        // console.log(result);
         refreshData()
         toast.success('Chapter Marked Completed!')
         setLoading(false);
@@ -38,7 +38,7 @@ function ChapterContent({ courseInfo, refreshData }) {
             courseId: courseId,
             completedChapter: completeChap
         });
-        console.log(result);
+        // console.log(result);
         refreshData()
         toast.success('Chapter Marked InCompleted!')
         setLoading(false);

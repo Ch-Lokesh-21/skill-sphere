@@ -15,7 +15,7 @@ function EnrollCourseList() {
     const GetEnrolledCourse = async () => {
         setLoading(true);
         const result = await axios.get('/api/enroll-course');
-        console.log(result.data);
+        // console.log(result.data);
         setEnrolledCourseList(result.data);
         setLoading(false);
     }

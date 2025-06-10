@@ -68,7 +68,7 @@ export default function Home() {
               {" "}
               <button
                 type="button"
-                className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-8 py-4 text-center inline-flex items-center transition duration-300 ease-in-out transform hover:scale-105"
+                className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-8 py-4 text-center inline-flex items-center transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer"
               >
                 Get Started <i className="fas fa-arrow-right ml-2"></i>
               </button>

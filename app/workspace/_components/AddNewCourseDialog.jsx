@@ -43,11 +43,11 @@ function AddNewCourseDialog({ children }) {
             ...prev,
             [field]: value
         }));
-        console.log(formData);
+        // console.log(formData);
     }
 
     const onGenerate = async () => {
-        console.log(formData);
+        // console.log(formData);
         const courseId = uuidv4();
 
         try {
@@ -66,7 +66,7 @@ function AddNewCourseDialog({ children }) {
         }
         catch (e) {
             setLoading(false)
-            console.log(e)
+            // console.log(e)
         }
     }
 

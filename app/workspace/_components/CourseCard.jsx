@@ -15,7 +15,7 @@ function CourseCard({ course, refreshData }) {
             const result = await axios.post('/api/enroll-course', {
                 courseId: course?.cid
             });
-            console.log(result.data);
+            // console.log(result.data);
             if (result.data.resp) {
                 toast.warning('Already Enrolled!');
                 setLoading(false);

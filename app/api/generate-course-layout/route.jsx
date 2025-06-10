@@ -80,7 +80,7 @@ export async function POST(req) {
         contents,
     });
 
-    console.log(response.candidates[0].content.parts[0].text);
+    // console.log(response.candidates[0].content.parts[0].text);
     const RawResp = response?.candidates[0]?.content?.parts[0]?.text
     const RawJson = RawResp.replace('```json', '').replace('```', '');
     const JSONResp = JSON.parse(RawJson);
@@ -120,7 +120,7 @@ const GenerateImage = async (imagePrompt) => {
                 'Content-Type': 'application/json', // Content Type
             },
         })
-    console.log(result.data.image) //Output Result: Base 64 Image
+    // console.log(result.data.image) //Output Result: Base 64 Image
     return result.data.image;
 }
 
