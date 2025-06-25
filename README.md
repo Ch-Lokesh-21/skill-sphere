@@ -4,10 +4,9 @@ Skill-Sphere is a full-stack learning platform designed to empower users with th
 
 ## The application is live at [LiveDemo]()
 
-![image1]()
-![image2]()
-![image3]()
-![image4]()
+![image1](https://github.com/Ch-Lokesh-21/skill-sphere/blob/474a68fbf577dc13f27f049eed5375a494060d47/image.png)
+![image2](https://github.com/Ch-Lokesh-21/skill-sphere/blob/474a68fbf577dc13f27f049eed5375a494060d47/image1.png)
+![image3](https://github.com/Ch-Lokesh-21/skill-sphere/blob/474a68fbf577dc13f27f049eed5375a494060d47/image2.png)
 
 ## Features  
 
