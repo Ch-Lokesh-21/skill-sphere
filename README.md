@@ -7,6 +7,7 @@ Skill-Sphere is a full-stack learning platform designed to empower users with th
 ![image1]()
 ![image2]()
 ![image3]()
+![image4]()
 
 ## Features  
 
