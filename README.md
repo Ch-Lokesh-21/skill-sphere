@@ -2,7 +2,7 @@
 
 Skill-Sphere is a full-stack learning platform designed to empower users with the ability to create and enroll in courses, track progress, and access AI-generated roadmaps for personalized learning experiences.  
 
-## The application is live at [LiveDemo]()
+## The application is live at [LiveDemo](https://skill-sphere-three.vercel.app/)
 
 ![image1](https://github.com/Ch-Lokesh-21/skill-sphere/blob/474a68fbf577dc13f27f049eed5375a494060d47/image.png)
 ![image2](https://github.com/Ch-Lokesh-21/skill-sphere/blob/474a68fbf577dc13f27f049eed5375a494060d47/image1.png)
